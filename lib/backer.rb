@@ -1,4 +1,3 @@
-require 'pry'
 class Backer
   attr_reader :name, :backed_projects
   
@@ -12,7 +11,3 @@ class Backer
     title.backers << self
   end
 end
-
-#this Backer needs to go into the Project @backers array from within #back_project
-# @backers << name
-#how do I access @backers?
